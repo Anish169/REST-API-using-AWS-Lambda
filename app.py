@@ -7,9 +7,9 @@ def lambda_handler(event, context):
 
     app_response = {}
 
-    app_response['message'] = f'The details are {first_name} and {last_name}'
+    app_response['message'] = f'The details are for {first_name} {last_name}'
     app_response['profession'] = 'cricket'
-    app_response['age'] = 40
+    app_response['age'] = 33
 
     responseObject = {}
     responseObject['statusCode'] = 200
